@@ -28,7 +28,7 @@ For example , if we want to install an instance with Ubuntu 22.04 cloud image OS
 
 > 'terraform init'  
 > 'terraform plan '  
-> 'terraform apply -auto-apporve'  
+> 'terraform apply -auto-approve'  
 > 'terraform destroy -auto-approve'  
 
 # How to change the OS that you want to install ? 
