@@ -16,7 +16,7 @@ provider "libvirt" {
 resource "libvirt_volume" "distro-qcow2" {
   name   = "distro-qcow2"
   pool   = "truongln"
-  source = "https://cloud-images.ubuntu.com/releases/jammy/release-20220513/ubuntu-22.04-server-cloudimg-amd64.img"
+  source = "${path.module}/Ubuntu2004-cloud.img"
   format = "qcow2"
 }
 
