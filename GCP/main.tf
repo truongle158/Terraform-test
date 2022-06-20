@@ -7,38 +7,29 @@ terraform {
   }
 }
 
+#All the variables in in variables.tf 
 provider "google" {
-  credentials = file("credential.json")
-
-  project = "sturdy-dogfish-299715"
-  region  = "asia-southeast1"
-  zone    = "asia-southeast1-b"
+  project     = "${var.project}"
+  region      = "${var.region}"
+  zone        ="${var.zone}"
+  credentials = "${var.service_account_key}"
 }
 
-resource "google_compute_network" "vpc_network" {
-  name = "terraform-network"
-}
 
-resource "google_compute_disk" "default" {
-  name  = "test-disk"
-  type  = "pd-ssd"
-  zone  = "asia-southeast1-b"
-  image = "projects/ubuntu-os-cloud/global/images/ubuntu-minimal-2204-jammy-v20220603"
-  labels = {
-    environment = "test-disk"
-  }
-  physical_block_size_bytes = 4096
-}
+
+
 
 # Create a single Compute Engine instance
 resource "google_compute_instance" "default" {
   name         = "test"
-  machine_type = "e2-small"
+  machine_type = "e2-small" #Please consider the right machine type . If you don't know which one to choose , please visit GCP console and check in Compute Engine
   tags         = ["ssh"]
 
   metadata = {
     enable-oslogin = "TRUE"
   }
+
+  
   boot_disk {
     source = google_compute_disk.default.name
   }
