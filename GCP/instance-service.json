@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "amigo-353907",
+  "private_key_id": "834dd8a3df56ab7fbc64c9029859444cfd206ad8",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCqkD4ejepXHd+r\nLN5el2HTti6Ih4D0asqhQBONGgJJjHAoZkSVekV39ujIrr+MoZ7ZDLdLwwKF8IEm\nl7lrqGxatLNb9i9BJcxz86Ggu22pZfXnio8/G4woHzE5RWo5AD/sQPvRKwDZ1DMu\nh8wCCQwQWAEQGNEtRkGwhBNeQAJPxp1qWbsKHBWiSOvYsy0/m69Dg1meqFm2ANNu\nqgabRvb2rqVSUndGwuZFlDIR8idoMSxC8EdC3SmnvpcjMy5GNXyDMCC+rS6uPKqU\na8y+B5+T28ALcg+1U0YxW5uwMkfe8W1tNCHGSnoyVhBCNuet6udzUaZxn8n7tBk8\ndUnoYlbXAgMBAAECggEAGOS2fEUgJ5jPlS8WQV38xCZ5wilss7+GVWSBtf1Oyic6\nE1thtSNEUk7yCKAgisjn4yvM8LzEeIHyh4xrXoAVWGO5LbnPicWXgnDTbR8N0UR1\nUFbTs1U07oIm8AHmj+0uZy/Q0OVi2Wf0FF1zc/SYEyaU+SF2HhJ78eRE42OaMsRA\nEdLT1iYHyxpoIoRaBFCzgkjKbnuuHiSVQ1O/oaaJk8X+/QLaEojmc5GSovgD1otm\nQcy74daStyUewCsXsQXV8Ffx7NaGKF2/c3MPgbvOJ7xQHqngPbcBo2gy5kUA7k3u\n7mhd9fN8hGIz9J/wBZ5KlwN4fpE6om7L0us5IOO+qQKBgQDba0PJjZRIArjtJSkN\nCM35KarqlkbSQe3Dqim9sZGFY78Uw2v5bDXy2Lckc3YMJ5C+cn98pAW8Jf/tNBIp\nSykoEO9A46/Y2WD0K2ITaL2IfUJ+7IX1d+dO6V7xgc2obCrRad+67rlAPTZVEf+Z\nboo2rFLO9WSKjfQjCo2ZCoIb9QKBgQDG/9Z+j7lYa0lbk0aPAA0sj1Ub8v5MSEvR\nVDmMS2umBgiRoOq+sXECZpLACrOzcht/C4lKDnaGwMdrIzCL5WiWVceEphCNV+zf\nkYTCpxKViOxH62a2SVNAyqCq+Lu8L1Vj7sslEuRDaKVbItY25O7Ucia09VjX95nX\nsPr8lGlUGwKBgQDR+x8OPd2P5HsRB6T3gluLfWLByTrRcKKXw7rafJpk6wYsWrB0\nLCic1OS/j3eDPkH44B49K8MJQdxgJprSxckHPN2aXcslXTK5uOLM7Eml2ynNyZCR\nT0QfcpqXyL8F1S5M5mNjw52pamsaknTnYrAGjndY8+JZ7mubNTg5I6NMGQKBgCVs\nlcUleGDlhF1BfEKGavPXXNUtxJ9J9WA/q7bztCH7/n6Mubj1G+Css6qEGLmFmyAw\nZjhUMfwzow1GB+o3UYz8QtJyfKhoQbbl4gbNbtRKdM0tuxpK/eowcTjWIFBKwo9R\nqEinneADfR1/lrOqKDQx54+emH+9I+SJdxorOwfDAoGBAKF5fVKQB1oIk8r4xj0A\ncqRwP9p9K1Um9FIINFUe52RNCorLErpFyEGqBBQE38tucCUQEyw2QQCCFEy4p1MW\nRSMTbEt4fmVV4htNhzSNY6eUzQ1jCqqwxlvkxP4eij1vXtt92C0j+W/OpHXGIKVo\nzMueyr8B7EUE8B1BapWjwSzU\n-----END PRIVATE KEY-----\n",
+  "client_email": "instance-service@amigo-353907.iam.gserviceaccount.com",
+  "client_id": "115838845297922083982",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/instance-service%40amigo-353907.iam.gserviceaccount.com"
+}
